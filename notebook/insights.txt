@@ -1,0 +1,11 @@
+Data Understanding:
+Loaded Dataset, There are total 12 Columns and 891 Rows
+
+Data Cleaning:
+Found 0 Duplicated rows but found Null Values in Cabin, Embarked and Age columns
+Dropped Cabin Column
+Filled Null values of Embarked with its mode 
+Filled Null values of Age with Median
+
+Feature Engineering:
+
