@@ -8,4 +8,15 @@ Filled Null values of Embarked with its mode
 Filled Null values of Age with Median
 
 Feature Engineering:
+Created FamilySize Column adding up SibSp + Parch + 1
+Created IsAlone Column whose family size is 1
 
+Insights:
+549 Passegers didn't survive (61%) and 342 Passengers survived (39%)
+577 (65%) were male passengers and 314 (35%) female passengers
+Mostly Passengers were under 30 Adults with 22% being 28 Y/O
+Age Distribution Graph is Skewed
+Female Survival Rate is significantly higher than mala Survival Rate
+1st Class Survived More than 2nd & 3rd class
+Children had higher survival rate
+Higher Fare = Higher survival probability
